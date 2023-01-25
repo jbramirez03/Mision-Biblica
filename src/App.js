@@ -16,7 +16,6 @@ function App() {
         <Route path='/' element={<>
           <Hero />
           <Header />
-          <Home />
           <Footer></Footer>
         </>}></Route>
         <Route path='/about'></Route>
