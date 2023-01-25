@@ -6,6 +6,7 @@ import Studies from './components/Studies';
 import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<>
+          <Hero />
           <Header />
           <Home />
           <Footer></Footer>
