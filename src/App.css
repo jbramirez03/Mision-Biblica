@@ -107,6 +107,11 @@ button {
   text-align: center;
 }
 
+.section__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 2rem;
+}
+
 .nav {
   height: var(--header-height);
   display: flex;
