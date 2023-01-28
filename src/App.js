@@ -18,7 +18,11 @@ function App() {
           <Hero />
           <Footer></Footer>
         </>}></Route>
-        <Route path='/about'></Route>
+        <Route path='/about' element={<>
+          <Header />
+          <About />
+          <Footer />
+        </>}></Route>
         <Route path='/studies'></Route>
         <Route path='/contacts'></Route>
       </Routes>
