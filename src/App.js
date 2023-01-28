@@ -14,8 +14,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<>
-          <Hero />
           <Header />
+          <Hero />
           <Footer></Footer>
         </>}></Route>
         <Route path='/about'></Route>
