@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../images/logo.jpeg'
 
-const Header = () => {
+const Header = ({ colored }) => {
 
     const navLink = document.querySelectorAll('.nav__link')
     const [menuState, setMenuState] = React.useState(false);
@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <header className={`header ${scrollState ? 'scroll-header' : ''}`} id='header'>
             <nav className='nav container'>
-                <Link className='logo nav__logo'><img src={Logo} />Misión Bíblica</Link>
+                <Link className={`logo nav__logo ${colored ? 'colored-header' : ''}`}><img src={Logo} />Misión Bíblica</Link>
                 <div className={`nav__menu ${menuState ? 'show-menu' : ''}`} id='nav-menu'>
                     <ul className="nav__list">
                         <li className="nav__item">
@@ -42,7 +42,7 @@ const Header = () => {
                     <i className="ri-close-line nav__close" id="nav-close" onClick={() => setMenuState(false)}></i>
                 </div>
 
-                <div className="nav__toggle" id="nav-toggle" onClick={() => setMenuState(true)}>
+                <div className={`nav__toggle ${colored ? 'colored-header' : ''}`} id="nav-toggle" onClick={() => setMenuState(true)}>
                     <i className="ri-function-line"></i>
                 </div>
             </nav>

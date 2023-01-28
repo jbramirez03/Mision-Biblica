@@ -14,12 +14,12 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<>
-          <Header />
+          <Header colored={false} />
           <Hero />
           <Footer></Footer>
         </>}></Route>
         <Route path='/about' element={<>
-          <Header />
+          <Header colored={true} />
           <About />
           <Footer />
         </>}></Route>
