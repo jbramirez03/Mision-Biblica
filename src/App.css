@@ -115,7 +115,8 @@ button {
 }
 
 .nav__logo,
-.nav__toggle {
+.nav__toggle,
+.nav__close {
   color: #fff;
 }
 

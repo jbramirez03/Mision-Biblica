@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <header className={`header ${scrollState ? 'scroll-header' : ''}`} id='header'>
             <nav className='nav container'>
-                <Link className='logo nav__logo'><img src={Logo} />Mísion Biblíca</Link>
+                <Link className='logo nav__logo'><img src={Logo} />Misión Bíblica</Link>
                 <div className={`nav__menu ${menuState ? 'show-menu' : ''}`} id='nav-menu'>
                     <ul className="nav__list">
                         <li className="nav__item">
