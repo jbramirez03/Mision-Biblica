@@ -23,7 +23,11 @@ function App() {
           <About />
           <Footer />
         </>}></Route>
-        <Route path='/studies'></Route>
+        <Route path='/studies' element={<>
+          <Header colored={true} />
+          <Studies />
+          <Footer />
+        </>}></Route>
         <Route path='/contacts'></Route>
       </Routes>
     </Router>
