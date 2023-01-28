@@ -11,7 +11,22 @@ const Studies = () => {
 
             <div className="study__posts grid">
                 <div className="study__post">
-                    <iframe width="275" height="215" src="https://www.youtube.com/embed/d4CbKA5ozQ4" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/d4CbKA5ozQ4" allowFullScreen></iframe>
+                </div>
+                <div className="study__post">
+                    <iframe src="https://www.youtube.com/embed/d4CbKA5ozQ4" allowFullScreen></iframe>
+                </div>
+                <div className="study__post">
+                    <iframe src="https://www.youtube.com/embed/d4CbKA5ozQ4" allowFullScreen></iframe>
+                </div>
+                <div className="study__post">
+                    <iframe src="https://www.youtube.com/embed/d4CbKA5ozQ4" allowFullScreen></iframe>
+                </div>
+                <div className="study__post">
+                    <iframe src="https://www.youtube.com/embed/d4CbKA5ozQ4" allowFullScreen></iframe>
+                </div>
+                <div className="study__post">
+                    <iframe src="https://www.youtube.com/embed/d4CbKA5ozQ4" allowFullScreen></iframe>
                 </div>
             </div>
         </section>

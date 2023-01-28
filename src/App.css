@@ -331,6 +331,7 @@ button {
 
 .study__posts {
   justify-content: center;
+  grid-template-rows: 1fr;
 }
 
 .study__post {
@@ -342,6 +343,8 @@ button {
 .study__post iframe {
   border-radius: 1rem;
   border: none;
+  width: 275px;
+  height: 215px;
 }
 
 .study__post:hover {
