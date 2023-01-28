@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mision-Biblica/static/css/main.1f7f621b.css",
-    "main.js": "/Mision-Biblica/static/js/main.becb4032.js",
+    "main.css": "/Mision-Biblica/static/css/main.3592b115.css",
+    "main.js": "/Mision-Biblica/static/js/main.ea35ce4d.js",
     "static/media/home.jpg": "/Mision-Biblica/static/media/home.af6d8bd9619e7803d39a.jpg",
     "static/media/logo.jpeg": "/Mision-Biblica/static/media/logo.1a15219eaff3e53b6c97.jpeg",
     "index.html": "/Mision-Biblica/index.html",
-    "main.1f7f621b.css.map": "/Mision-Biblica/static/css/main.1f7f621b.css.map",
-    "main.becb4032.js.map": "/Mision-Biblica/static/js/main.becb4032.js.map"
+    "main.3592b115.css.map": "/Mision-Biblica/static/css/main.3592b115.css.map",
+    "main.ea35ce4d.js.map": "/Mision-Biblica/static/js/main.ea35ce4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f7f621b.css",
-    "static/js/main.becb4032.js"
+    "static/css/main.3592b115.css",
+    "static/js/main.ea35ce4d.js"
   ]
 }
