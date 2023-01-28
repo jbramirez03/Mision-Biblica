@@ -88,6 +88,10 @@ button {
   margin-right: var(--mb-1);
 }
 
+.grid {
+  display: grid;
+}
+
 .header {
   width: 100%;
   position: fixed;
@@ -323,4 +327,23 @@ button {
   overflow-wrap: break-word;
   inline-size: 100%;
   text-align: center;
+}
+
+.study__posts {
+  justify-content: center;
+}
+
+.study__post {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.study__post iframe {
+  border-radius: 1rem;
+  border: none;
+}
+
+.study__post:hover {
+  box-shadow: 0 12px 16px hsl(228deg, 66%, 45%, 0.1);
 }
