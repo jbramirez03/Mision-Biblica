@@ -28,7 +28,11 @@ function App() {
           <Studies />
           <Footer />
         </>}></Route>
-        <Route path='/contacts'></Route>
+        <Route path='/contacts' element={<>
+          <Header />
+          <Contact />
+          <Footer />
+        </>}></Route>
       </Routes>
     </Router>
   );
