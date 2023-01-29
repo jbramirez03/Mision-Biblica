@@ -28,8 +28,8 @@ function App() {
           <Studies />
           <Footer />
         </>}></Route>
-        <Route path='/contacts' element={<>
-          <Header />
+        <Route path='/contact' element={<>
+          <Header colored={true} />
           <Contact />
           <Footer />
         </>}></Route>
