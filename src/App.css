@@ -391,12 +391,13 @@ button {
 
 .contact__container {
   column-gap: 3.5rem;
-  row-gap: 2rem;
+  row-gap: 3rem;
 }
 
 .contact__data {
   display: grid;
   row-gap: 2rem;
+  justify-content: center;
 }
 
 .contact__subtitle {
@@ -420,7 +421,7 @@ button {
 
 .contact__inputs {
   display: grid;
-  row-gap: 2rem;
+  row-gap: 3rem;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -451,6 +452,7 @@ button {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
   transition: 0.3s;
+  text-align: center;
 }
 
 .contact__area {
@@ -477,6 +479,11 @@ button {
 
 .contact__form {
   margin-bottom: 4rem;
+}
+
+.contact__button {
+  display: flex;
+  justify-content: center;
 }
 
 .contact__location {

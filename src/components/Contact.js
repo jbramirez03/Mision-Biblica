@@ -62,10 +62,13 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <button action="submit" className="button button--flex">
-                        Enviar mensaje
-                        <i className="ri-arrow-right-up-line button__icon"></i>
-                    </button>
+                    <div className="contact__button">
+
+                        <button action="submit" className="button button--flex">
+                            Enviar mensaje
+                            <i className="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
                 </form>
 
                 <div className="contact__location">
