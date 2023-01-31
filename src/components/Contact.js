@@ -35,7 +35,7 @@ const Contact = () => {
                                 id="email"
                                 placeholder=" "
                             />
-                            <label htmlFor="email" className="contact__label">Email</label>
+                            <label htmlFor="email" className="contact__label">Correo electrónico</label>
                         </div>
 
                         <div className="contact__content">
@@ -46,7 +46,7 @@ const Contact = () => {
                                 placeholder=" "
                                 className="contact__input"
                             />
-                            <label htmlFor="subject" className="contact__label">Subject</label>
+                            <label htmlFor="subject" className="contact__label">Sujeto</label>
                         </div>
 
                         <div className="contact__content contact__area">
@@ -58,18 +58,18 @@ const Contact = () => {
                                 data-enable-grammarly="false"
                                 className="contact__input"
                             ></textarea>
-                            <label htmlFor="message" className="contact__label">Message</label>
+                            <label htmlFor="message" className="contact__label">Mensaje</label>
                         </div>
                     </div>
 
                     <button action="submit" className="button button--flex">
-                        Send Message
+                        Enviar mensaje
                         <i className="ri-arrow-right-up-line button__icon"></i>
                     </button>
                 </form>
 
                 <div className="contact__location">
-                    <h2 className="contact__title section__title-center">Our location<br />Mebane, Nc</h2>
+                    <h2 className="contact__title section__title-center">Nuestra Ubicación<br />Mebane, Nc</h2>
 
                     <div className="contact__images">
                         <img src={buildingImg} alt="" className="contact__image" />
