@@ -473,3 +473,24 @@ button {
   font-size: var(--smaller-font-size);
   z-index: 10;
 }
+
+.contact__form {
+  margin-bottom: 4rem;
+}
+
+.contact__location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__image {
+  width: 100%;
+  height: auto;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import buildingImg from '../images/building2.jpg'
 
 const Contact = () => {
     return (
@@ -6,7 +7,8 @@ const Contact = () => {
 
             <div className="contact__container grid">
                 <div className="contact__box">
-                    <h2 className="section__title section__title-center contact__title">Comuníquese con nosotros hoy a través de cualquiera de la información proporcionada</h2>
+                    <h2 className="section__title section__title-center contact__title
+                    ">Comuníquese con nosotros hoy a través de cualquiera de la información proporcionada</h2>
                     <div className="contact__data">
                         <div className="contact__information">
                             <h3 className="contact__subtitle">Llámenos para soporte instantáneo</h3>
@@ -65,6 +67,14 @@ const Contact = () => {
                         <i className="ri-arrow-right-up-line button__icon"></i>
                     </button>
                 </form>
+
+                <div className="contact__location">
+                    <h2 className="contact__title section__title-center">Our location<br />Mebane, Nc</h2>
+
+                    <div className="contact__images">
+                        <img src={buildingImg} alt="" className="contact__image" />
+                    </div>
+                </div>
             </div>
         </section>
     )
