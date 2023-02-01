@@ -26,16 +26,16 @@ const Header = ({ colored }) => {
                 <div className={`nav__menu ${menuState ? 'show-menu' : ''}`} id='nav-menu'>
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <Link to='/' className='nav__link'>Inicio</Link>
+                            <Link to='/' className={`nav__link ${colored ? 'colored-link' : ''}`}>Inicio</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to='/About' className='nav__link'>Sobre Nosotros</Link>
+                            <Link to='/About' className={`nav__link ${colored ? 'colored-link' : ''}`}>Sobre Nosotros</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to='/Studies' className='nav__link'>Estudios Bíblicos</Link>
+                            <Link to='/Studies' className={`nav__link ${colored ? 'colored-link' : ''}`}>Estudios Bíblicos</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to='/Contact' className='nav__link'>Contacto</Link>
+                            <Link to='/Contact' className={`nav__link ${colored ? 'colored-link' : ''}`}>Contacto</Link>
                         </li>
                     </ul>
 
