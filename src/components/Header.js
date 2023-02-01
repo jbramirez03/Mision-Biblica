@@ -22,7 +22,7 @@ const Header = ({ colored }) => {
     return (
         <header className={`header ${scrollState ? 'scroll-header' : ''}`} id='header'>
             <nav className='nav container'>
-                <Link className={`logo nav__logo ${colored ? 'colored-header' : ''}`}><img src={Logo} /> <p>Misión Bíblica</p></Link>
+                <Link to='/' className={`logo nav__logo ${colored ? 'colored-header' : ''}`}><img src={Logo} /> <p>Misión Bíblica</p></Link>
                 <div className={`nav__menu ${menuState ? 'show-menu' : ''}`} id='nav-menu'>
                     <ul className="nav__list">
                         <li className="nav__item">
