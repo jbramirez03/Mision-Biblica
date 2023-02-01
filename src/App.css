@@ -625,6 +625,7 @@ form {
 
   .welcome__info {
     padding: 4rem;
+    right: 10%;
   }
 
   .welcome__info h3 {
@@ -693,4 +694,7 @@ form {
 }
 
 @media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1024px;
+  }
 }
