@@ -698,3 +698,9 @@ form {
     max-width: 1024px;
   }
 }
+
+@media screen and (max-height: 700px) {
+  .welcome__info {
+    display: none;
+  }
+}
