@@ -72,12 +72,16 @@ const Contact = () => {
                 </form>
 
                 <div className="contact__location">
-                    <h2 className="contact__title section__title-center">Nuestra Ubicación<br />Mebane, Nc</h2>
+                    <h2 className="contact__title section__title-center">Nuestra Ubicación<br />Mebane, NC</h2>
 
                     <div className="contact__images">
                         <img src={buildingImg} alt="" className="contact__image" />
                     </div>
                 </div>
+            </div>
+            <div className="survey">
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtX7zw88FRjpNXvzf8la3-whIOhASzWL9xof5Y_81BQNjNMw/viewform?embedded=true" width="640" height="1707" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </section>
     )

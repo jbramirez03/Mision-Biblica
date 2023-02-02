@@ -566,6 +566,11 @@ form {
   text-align: center;
 }
 
+.survey {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
