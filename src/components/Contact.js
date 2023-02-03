@@ -84,11 +84,6 @@ const Contact = () => {
 
                 <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20mebane+(location)&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
             </div>
-
-            <div className="survey">
-
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtX7zw88FRjpNXvzf8la3-whIOhASzWL9xof5Y_81BQNjNMw/viewform?embedded=true" width="640" height="1707" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-            </div>
         </section>
     )
 }

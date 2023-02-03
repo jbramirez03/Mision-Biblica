@@ -30,7 +30,7 @@ function App() {
           <Footer />
         </>}></Route>
         <Route path='survey' element={<>
-          <Header />
+          <Header colored={true} />
           <Survey />
           <Footer />
         </>}>
