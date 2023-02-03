@@ -35,6 +35,9 @@ const Header = ({ colored }) => {
                             <Link to='/Studies' className={`nav__link ${colored ? 'colored-link' : ''}`}>Estudios Bíblicos</Link>
                         </li>
                         <li className="nav__item">
+                            <Link to='/Survey' className={`nav__link ${colored ? 'colored-link' : ''}`}>Encuesta Bíblica</Link>
+                        </li>
+                        <li className="nav__item">
                             <Link to='/Contact' className={`nav__link ${colored ? 'colored-link' : ''}`}>Contacto</Link>
                         </li>
                     </ul>

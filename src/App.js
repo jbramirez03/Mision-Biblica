@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import Survey from './components/Survey';
 
 
 function App() {
@@ -28,6 +29,12 @@ function App() {
           <Studies />
           <Footer />
         </>}></Route>
+        <Route path='survey' element={<>
+          <Header />
+          <Survey />
+          <Footer />
+        </>}>
+        </Route>
         <Route path='/contact' element={<>
           <Header colored={true} />
           <Contact />
