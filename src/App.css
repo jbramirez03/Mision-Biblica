@@ -583,6 +583,7 @@ form {
 
 .location iframe {
   border: none;
+  height: 300px;
 }
 
 @media screen and (min-width: 768px) {
@@ -685,6 +686,10 @@ form {
 
   .contact__images {
     padding: 0 3rem 3rem 3rem;
+  }
+
+  .location iframe {
+    height: 400px;
   }
 }
 
