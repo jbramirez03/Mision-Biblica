@@ -11,7 +11,7 @@ const About = () => {
 
                 <div className="about__content-1 about__content">
                     <div className="about__information">
-                        <h3>David Ruiz, Pastor</h3>
+                        <h3>David Ruiz,<br /> Pastor</h3>
                         <p>Somos una famillia de 5 dedicada a servir a nuestra communidad con la palabra de Dios y el espíritu de Dios.</p>
                     </div>
                     <img className='about__image' src={aboutImg1} alt="" />
