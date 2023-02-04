@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
 
                 <form
-                    action="https://formspree.io/f/mnqwkygq"
+                    action="https://formspree.io/f/xayzqgkv"
                     method="POST"
                     className="contact__form"
                 >
