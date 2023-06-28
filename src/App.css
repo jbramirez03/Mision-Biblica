@@ -509,6 +509,11 @@ form {
   justify-content: center;
 }
 
+.contact__directions {
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
 .contact__images {
   display: flex;
   flex-direction: column;
@@ -669,6 +674,10 @@ form {
   .about__content-1,
   .about__content-2 {
     flex-direction: row;
+  }
+
+  .about__content-2 {
+    flex-direction: row-reverse;
   }
 
   .about__image {

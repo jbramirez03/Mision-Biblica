@@ -72,7 +72,9 @@ const Contact = () => {
                 </form>
 
                 <div className="contact__location">
-                    <h2 className="contact__title section__title-center">Nuestra Ubicación<br />Mebane, NC</h2>
+                    <h2 className="contact__title section__title-center">Nuestra Ubicación<br /><span className='contact__directions'>
+                        103 S 5th St, Mebane, NC 27302
+                    </span></h2>
 
                     <div className="contact__images">
                         <img src={buildingImg} alt="" className="contact__image" />
@@ -81,8 +83,7 @@ const Contact = () => {
             </div>
 
             <div className="location">
-
-                <iframe width="520" height="400" scrolling="no" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20mebane+(location)&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
+                <iframe width="520" height="400" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=103%20S%205th%20St,%20Mebane,%20NC%2027302+(My%20Business%20Name)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
             </div>
         </section>
     )
