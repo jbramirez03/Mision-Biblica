@@ -343,6 +343,11 @@ form {
 .about__content {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.about__blocks {
+  margin-top: 5rem;
 }
 
 .about__content-1,
@@ -351,6 +356,11 @@ form {
   margin-bottom: 4rem;
   padding: 0 1rem 0 1rem;
 }
+
+.about__image {
+  width: 270px;
+}
+
 .about__information {
   padding: 1rem;
 }
@@ -658,8 +668,11 @@ form {
 
   .about__content-1,
   .about__content-2 {
-    margin-bottom: 2rem;
-    padding: 2rem 4rem 0 4rem;
+    flex-direction: row;
+  }
+
+  .about__image {
+    width: 300px;
   }
 
   .study__posts {
@@ -709,7 +722,7 @@ form {
 
   .about__content-1,
   .about__content-2 {
-    padding: 2rem 10rem 0 10rem;
+    padding: 2rem 6rem 0 6rem;
   }
 
   .contact__images {
