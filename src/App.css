@@ -516,14 +516,13 @@ form {
 
 .contact__images {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  padding: 0 2rem 2rem 2rem;
+  margin-bottom: 2rem;
 }
 
 .contact__image {
-  width: 100%;
-  height: auto;
+  width: 300px;
 }
 
 .footer {
@@ -710,8 +709,13 @@ form {
     padding: 0 3rem 3rem 3rem;
   }
 
+  .contact__image {
+    width: 500px;
+  }
+
   .location iframe {
     height: 400px;
+    width: 500px;
   }
 }
 
@@ -734,8 +738,12 @@ form {
     padding: 2rem 6rem 0 6rem;
   }
 
-  .contact__images {
-    padding: 0 10rem 4rem 10rem;
+  .contact__image {
+    width: 525px;
+  }
+
+  .location iframe {
+    width: 525px;
   }
 }
 
