@@ -76,6 +76,7 @@ const Contact = () => {
                         103 S 5th St, Mebane, NC 27302
                     </span></h2>
 
+                    <h3 className="contact__title section__title-center">Horario: Jueves 7:30pm</h3>
                     <div className="contact__images">
                         <img src={buildingImg} alt="" className="contact__image" />
                     </div>

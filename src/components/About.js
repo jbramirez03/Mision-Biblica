@@ -19,7 +19,7 @@ const About = () => {
                 <div className="about__content-2 about__content">
                     <div className="about__information">
                         <h3>Nuestra Misión</h3>
-                        <p>Amar: Amamos a Dios y a todas personas <br /> Equipar: Nos dedicamos a equipar con la palabra de Dios y ayudarle llegar a ser lo que Dios tiene para su vida</p>
+                        <p>Amar: Amamos a Dios y a todas personas <br /> Equipar: Nos dedicamos a equipar con la palabra de Dios <br /> Lanzar: Nuestro deseo es que cada uno se lanze a el proposito de Dios en su vida</p>
                     </div>
                     <img className='about__image' src={aboutImg2} alt="" />
                 </div>

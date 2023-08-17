@@ -11,22 +11,22 @@ const Studies = () => {
 
             <div className="study__posts grid">
                 <div className="study__post">
-                    <iframe src="https://www.youtube.com/embed/0CpUshWvUHI" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/ZR-jqQi0dO8" allowFullScreen></iframe>
                 </div>
                 <div className="study__post">
-                    <iframe src="https://www.youtube.com/embed/lUPRXp-j3Os" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/tnhK5GjWir4" allowFullScreen></iframe>
                 </div>
                 <div className="study__post">
-                    <iframe src="https://www.youtube.com/embed/5Lg8wSLbvKg" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/BFzqvxx9mag" allowFullScreen></iframe>
                 </div>
                 <div className="study__post">
-                    <iframe src="https://www.youtube.com/embed/eK6TimKD3PI" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/8ZCHMQBTP0Y" allowFullScreen></iframe>
                 </div>
                 <div className="study__post">
-                    <iframe src="https://www.youtube.com/embed/7RPhPWZvF5U" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/_w3NxoAvW2Q" allowFullScreen></iframe>
                 </div>
                 <div className="study__post">
-                    <iframe src="https://www.youtube.com/embed/oAcn5G7NkNY" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/F1TVQtcr5AE" allowFullScreen></iframe>
                 </div>
             </div>
         </section>
