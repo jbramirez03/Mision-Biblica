@@ -361,6 +361,10 @@ form {
   width: 270px;
 }
 
+.about__image-2 {
+  width: 220px;
+}
+
 .about__information {
   padding: 1rem;
 }
@@ -683,6 +687,10 @@ form {
     width: 300px;
   }
 
+  .about__image-2 {
+    width: 250px;
+  }
+
   .study__posts {
     grid-template-columns: 1fr 1fr;
   }
@@ -736,6 +744,14 @@ form {
   .about__content-1,
   .about__content-2 {
     padding: 2rem 6rem 0 6rem;
+  }
+
+  .about__content-2 {
+    flex-direction: column-reverse;
+  }
+
+  .about__image {
+    width: 350px;
   }
 
   .contact__image {
